@@ -9,7 +9,7 @@ function HomePage() {
   return (
     <>
       <h1>Home Page</h1>
-      <p>Go to <Link to="/products">Link of Products</Link></p>
+      <p>Go to <Link to="products">Link of Products</Link></p>
       <button onClick={navigateHandler}>Button of Products</button>
     </>
   );
